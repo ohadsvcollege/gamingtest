@@ -9,7 +9,7 @@ export default function ChooseTest({ info, title }) {
 
     const choose = ()=>{
         
-        store.dispatch({type:'testName',payload:title})
+        store.dispatch({type:'testName',payload:'fullstack_second_test'})
         if(title === 'general')
             nav("/generaltest", { replace: true });
         else
